@@ -18,6 +18,8 @@
 		3A08E9C22A49135900694743 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08E9C12A49135900694743 /* UserProvider.swift */; };
 		3A08E9C52A4913DA00694743 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08E9C42A4913DA00694743 /* UserModel.swift */; };
 		3A08E9C82A49267900694743 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08E9C72A49267900694743 /* Constants.swift */; };
+		3A08E9E42A4BD67B00694743 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08E9E32A4BD67B00694743 /* UserBusiness.swift */; };
+		3A3CBB9B2A4D4010002DF484 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CBB9A2A4D4010002DF484 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		3A08E9C12A49135900694743 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		3A08E9C42A4913DA00694743 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3A08E9C72A49267900694743 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A08E9E32A4BD67B00694743 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
+		3A3CBB9A2A4D4010002DF484 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		E9328B0AE42871C7A2E66A0F /* Pods_Arquiteturas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arquiteturas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,7 @@
 		3A08E9BE2A48E13300694743 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				3A08E9E32A4BD67B00694743 /* UserBusiness.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 		3A08E9BF2A48E14F00694743 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				3A3CBB9A2A4D4010002DF484 /* UserManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				3A08E9AA2A48CB9800694743 /* SceneDelegate.swift in Sources */,
 				3A08E9C52A4913DA00694743 /* UserModel.swift in Sources */,
 				3A08E9C22A49135900694743 /* UserProvider.swift in Sources */,
+				3A08E9E42A4BD67B00694743 /* UserBusiness.swift in Sources */,
+				3A3CBB9B2A4D4010002DF484 /* UserManager.swift in Sources */,
 				3A08E9C82A49267900694743 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
